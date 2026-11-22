@@ -21,8 +21,8 @@
 Для работы ноутбука требуются библиотеки:
 
 - `numpy`
-- 'pandas'
-- 'seaborn'
+- `pandas'
+- `seaborn'
 - `torch`, `torchvision`
 - `scikit-learn`
 - `pillow` (`PIL`)
