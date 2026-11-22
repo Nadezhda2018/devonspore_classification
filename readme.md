@@ -21,6 +21,8 @@
 Для работы ноутбука требуются библиотеки:
 
 - `numpy`
+- 'pandas'
+- 'seaborn'
 - `torch`, `torchvision`
 - `scikit-learn`
 - `pillow` (`PIL`)
@@ -30,7 +32,7 @@
 Установка основных зависимостей:
 
 ```bash
-pip install numpy torch torchvision scikit-learn pillow matplotlib python-docx
+pip install numpy pandas torch torchvision scikit-learn pillow matplotlib seaborn python-docx
 ```
 
 ## Использование
@@ -38,9 +40,9 @@ pip install numpy torch torchvision scikit-learn pillow matplotlib python-docx
 1. Откройте ноутбук (`.ipynb`) в Jupyter Notebook, JupyterLab или VS Code.
 2. Укажите пути к директории с изображениями спор и путь к файлу кэша индекса (например, `spores_index_final.npz`).
 3. Запустите ячейки последовательно:
-   - инициализация модели `EfficientNet-B2` и `SporeFeatureExtractor`;
+   - инициализация модели `EfficientNet-B2` и `EfficientNetFeatureExtractor`;
    - построение или загрузка индекса признаков через `build_or_load_index`;
-   - выполнение поиска похожих спор (`search_similar` / `process_genus_batch`);
+   - выполнение поиска похожих спор (`search_similar_spores` ,`display_search_results',  `process_genus_batch`);
    - генерация графиков и сохранение итогового отчёта в `.docx`.
 
 ## Примечания
