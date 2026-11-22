@@ -42,8 +42,8 @@ pip install numpy pandas torch torchvision scikit-learn pillow matplotlib seabor
 3. Запустите ячейки последовательно:
    - инициализация модели `EfficientNet-B2` и `EfficientNetFeatureExtractor`;
    - построение или загрузка индекса признаков через `build_or_load_index`;
-   - выполнение поиска похожих спор (`search_similar_spores` ,`display_search_results',  `process_genus_batch`);
-   - генерация графиков и сохранение итогового отчёта в `.docx`.
+   - выполнение поиска похожих спор (`search_similar_spores` ,`display_search_results`,  `process_genus_batch`);
+   - генерация графиков матрицы ошибок и отчета с метриками, сохранение итогового отчёта в `.docx`.
 
 ## Примечания
 
